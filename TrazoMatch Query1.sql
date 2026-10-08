@@ -31,7 +31,7 @@ Create Table portafolio (
 );
 
 Create Table obra (
-	id_obra Int auto_increment Not Null Unique,
+	id_obra Int auto_increment Not Null Unique, -- Primary Foreign Key in detalle_licencia
     id_portafolio Int Not Null Unique,
     nombre varchar(25) Not Null,
     descripcion text,
@@ -44,7 +44,7 @@ Create Table obra (
     fecha_creacion Datetime Not Null,
     Primary Key (id_obra),
     Foreign Key (id_portafolio) References portafolio(id_portafolio)
-);
+) ENGINE=INNODB;
 
 Create Table red_social (
 	id_red_social Int auto_increment Not Null Unique,
@@ -67,18 +67,19 @@ Create Table empresa (
 ) ENGINE=INNODB;
 
 Create Table licencia (
-	id_licencia Int auto_increment Not Null Unique,
+	id_licencia Int auto_increment Not Null Unique, -- Primary Foreign Key in detalle_licencia
     id_empresa Int Not Null Unique,
     tipo_licencia varchar(25) Not Null,
     documento_legal varbinary(255) Not Null Unique,
     fecha_emision Datetime Not Null,
     Primary Key (id_licencia),
     Foreign Key (id_empresa) References empresa(id_empresa)
-);
+) ENGINE=INNODB;
 
 Create Table detalle_licencia (
-	id_licencia Int Not Null Unique,
-    id_obra Int Not Null Unique,
+	id_licencia Int Not Null Unique, -- Primary Foreign Key
+    id_obra Int Not Null Unique, -- Primary Foreign Key
+	Primary Key (id_licencia, id_obra),
     Foreign Key (id_licencia) References licencia(id_licencia),
     Foreign Key (id_obra) References obra(id_obra)
 ) ENGINE=INNODB;
@@ -117,18 +118,3 @@ Create Table pago (
     Foreign Key (id_licencia) References licencia(id_licencia),
     Foreign key (id_encargo) References encargo(id_encargo)
 );
-
--- In case we need to modified something DO NOT RUN
-Drop Database TrazoMatch;
-
-Drop Table artista;
-Drop Table cuenta;
-Drop Table detalle_licencia;
-Drop Table empresa;
-Drop Table encargo;
-Drop Table licencia;
-Drop Table obra;
-Drop Table pago;
-Drop Table portafolio;
-Drop Table red_social;
-Drop Table resena;
