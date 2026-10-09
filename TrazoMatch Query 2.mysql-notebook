@@ -1,0 +1,63 @@
+{
+    "type": "MySQLNotebook",
+    "version": "1.0",
+    "caption": "TrazoMatch Query 2.sql",
+    "content": "Use TrazoMatch;\n\nInsert Into cuenta (correo, contrasena, tipo_usuario, fecha_creacion) Values ('akumaheart@gmail.com','artist123',2,'2026-10-7');\nSelect * From cuenta;\n\n",
+    "options": {
+        "tabSize": 4,
+        "indentSize": 4,
+        "insertSpaces": true,
+        "defaultEOL": "LF",
+        "trimAutoWhitespace": true
+    },
+    "viewState": null,
+    "contexts": [
+        {
+            "state": {
+                "start": 1,
+                "end": 6,
+                "language": "mysql",
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 15
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 15,
+                            "length": 130
+                        },
+                        "contentStart": 17,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 145,
+                            "length": 22
+                        },
+                        "contentStart": 146,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 167,
+                            "length": 2
+                        },
+                        "contentStart": 166,
+                        "state": 3
+                    }
+                ]
+            },
+            "data": []
+        }
+    ]
+}
