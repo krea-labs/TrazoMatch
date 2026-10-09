@@ -1,0 +1,135 @@
+{
+    "type": "MySQLNotebook",
+    "version": "1.0",
+    "caption": "TrazoMatch Drop.sql",
+    "content": "-- In case we need to modified something DO NOT RUN\nDrop Database TrazoMatch;\n\nDrop Table artista;\nDrop Table cuenta;\nDrop Table detalle_licencia;\nDrop Table empresa;\nDrop Table encargo;\nDrop Table licencia;\nDrop Table obra;\nDrop Table pago;\nDrop Table portafolio;\nDrop Table red_social;\nDrop Table resena;",
+    "options": {
+        "tabSize": 4,
+        "indentSize": 4,
+        "insertSpaces": true,
+        "defaultEOL": "LF",
+        "trimAutoWhitespace": true
+    },
+    "viewState": null,
+    "contexts": [
+        {
+            "state": {
+                "start": 1,
+                "end": 14,
+                "language": "mysql",
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 77
+                        },
+                        "contentStart": 53,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 77,
+                            "length": 21
+                        },
+                        "contentStart": 80,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 98,
+                            "length": 19
+                        },
+                        "contentStart": 100,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 117,
+                            "length": 29
+                        },
+                        "contentStart": 119,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 146,
+                            "length": 20
+                        },
+                        "contentStart": 148,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 166,
+                            "length": 20
+                        },
+                        "contentStart": 168,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 186,
+                            "length": 21
+                        },
+                        "contentStart": 188,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 207,
+                            "length": 17
+                        },
+                        "contentStart": 209,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 224,
+                            "length": 17
+                        },
+                        "contentStart": 226,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 241,
+                            "length": 23
+                        },
+                        "contentStart": 243,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 264,
+                            "length": 23
+                        },
+                        "contentStart": 266,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 287,
+                            "length": 19
+                        },
+                        "contentStart": 289,
+                        "state": 0
+                    }
+                ]
+            },
+            "data": []
+        }
+    ]
+}
