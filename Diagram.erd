@@ -59,7 +59,7 @@
       "wcCiycbQEMEHKlBDXuSWo",
       "aqESQsKJLUeTbhyLxZZgb",
       "2e9OGzWTAlejiHbblAU24",
-      "vApvIsUNU1Mh5P4WQFLW1"
+      "rro9fL_fyNBQgKwDE49u6"
     ],
     "indexIds": [],
     "memoIds": []
@@ -197,7 +197,7 @@
         "comment": "",
         "columnIds": [
           "4iBtFt6YcA8gf7SdXry5_",
-          "-teDIJMvfdYicqlhwwzxM",
+          "T310Rz2Ty8Av0nh6Aaaa9",
           "EDvVhB0Qcs1XOD0ZKtHpR"
         ],
         "seqColumnIds": [
@@ -206,6 +206,7 @@
           "V4dza7ueviU7LENEw_ZfC",
           "xF-sbyI2B5AGPzvO0YPRy",
           "-teDIJMvfdYicqlhwwzxM",
+          "T310Rz2Ty8Av0nh6Aaaa9",
           "EDvVhB0Qcs1XOD0ZKtHpR",
           "-5lj6aairq6_ZlvPtPQLa"
         ],
@@ -218,7 +219,7 @@
           "color": ""
         },
         "meta": {
-          "updateAt": 1791488337280,
+          "updateAt": 1791504324944,
           "createAt": 1791471473033
         }
       },
@@ -2195,7 +2196,7 @@
         "default": "",
         "options": 8,
         "ui": {
-          "keys": 2,
+          "keys": 0,
           "widthName": 60,
           "widthComment": 105,
           "widthDataType": 60,
@@ -2204,6 +2205,26 @@
         "meta": {
           "updateAt": 1791488336485,
           "createAt": 1791488336485
+        }
+      },
+      "T310Rz2Ty8Av0nh6Aaaa9": {
+        "id": "T310Rz2Ty8Av0nh6Aaaa9",
+        "tableId": "8lAMRKODaV9iSJYNPoK_9",
+        "name": "id_artista",
+        "comment": "NOT NULL UNIQUE",
+        "dataType": "INTEGER",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 2,
+          "widthName": 60,
+          "widthComment": 105,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1791504323879,
+          "createAt": 1791504323879
         }
       }
     },
@@ -3106,6 +3127,36 @@
         "meta": {
           "updateAt": 1791488336485,
           "createAt": 1791488336485
+        }
+      },
+      "rro9fL_fyNBQgKwDE49u6": {
+        "id": "rro9fL_fyNBQgKwDE49u6",
+        "identification": false,
+        "relationshipType": 16,
+        "startRelationshipType": 2,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "2LaluS6MarpgR6C2pe6zy",
+          "columnIds": [
+            "Hs_Dch4_7snniIPeuZZN_"
+          ],
+          "x": 38.339600000000004,
+          "y": 188.0803,
+          "direction": 8
+        },
+        "end": {
+          "tableId": "8lAMRKODaV9iSJYNPoK_9",
+          "columnIds": [
+            "T310Rz2Ty8Av0nh6Aaaa9"
+          ],
+          "x": 37.52539999999999,
+          "y": 370.9138,
+          "direction": 4
+        },
+        "meta": {
+          "updateAt": 1791504323880,
+          "createAt": 1791504323880
         }
       }
     },
