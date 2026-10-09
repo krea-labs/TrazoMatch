@@ -21,7 +21,13 @@ Example:
 
 # Instructions
 You need to Work first in 
-> TrazoMatch.mysql-notebook 
+> File.mysql-notebook 
 
 and then copy the changes in 
-> TrazoMatch Query1.sql
+> File.sql
+
+For example in
+>TrazoMatch Query 2.mysql-notebook
+
+to
+>TrazoMatch Query 2.sql
