@@ -40,7 +40,7 @@ Create Table obra (
     paleta_colores varchar(30) Not Null,
     imagen varbinary(256) Not Null,
     es_licenciable Bool Not Null,
-    precio_base Float,
+    precio_base Decimal(10,2) Not Null,
     fecha_creacion Datetime Not Null,
     Primary Key (id_obra),
     Foreign Key (id_portafolio) References portafolio(id_portafolio)
@@ -110,7 +110,7 @@ Create Table pago (
 	id_pago Int auto_increment Not Null Unique,
     id_licencia Int Not Null Unique,
     id_encargo Int Not Null Unique,
-    monto Float Not Null,
+    monto Decimal(10,2) Not Null,
     metodo_pago varchar(25) Not Null,
     estado_pago Int Not Null, -- Estado Pago: 1 (pendiente), 2 (procesando), 3 (Pagado), 4 (pago rechazado)
     fecha_pago Datetime Not Null,
