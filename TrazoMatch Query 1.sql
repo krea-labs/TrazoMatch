@@ -50,7 +50,7 @@ Create Table red_social (
 	id_red_social Int auto_increment Not Null Unique,
     id_artista Int Not Null,
     nombre varchar(25) Not Null,
-    link varchar(225) Not Null,
+    link varchar(500) Not Null,
     Primary Key (id_red_social),
     Foreign Key (id_artista) References artista(id_artista)
 );
