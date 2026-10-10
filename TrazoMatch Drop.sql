@@ -1,3 +1,5 @@
+Use TrazoMatch;
+
 -- In case we need to modified something DO NOT RUN
 Drop Database TrazoMatch;
 
