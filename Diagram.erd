@@ -1072,18 +1072,18 @@
         "tableId": "0XGYRCaZZRQQmHz-SH52F",
         "name": "imagen",
         "comment": "NOT NULL",
-        "dataType": "VARBINARY",
+        "dataType": "VARCHAR",
         "default": "",
         "options": 8,
         "ui": {
           "keys": 0,
           "widthName": 60,
           "widthComment": 62,
-          "widthDataType": 69,
+          "widthDataType": 60,
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1791475575026,
+          "updateAt": 1791657435126,
           "createAt": 1791471586787
         }
       },
@@ -2340,7 +2340,7 @@
           "columnIds": [
             "6zYUDGqv5SwOc_NDtVV4k"
           ],
-          "x": 48.472899999999996,
+          "x": 44.472899999999996,
           "y": 580.4504,
           "direction": 4
         },
@@ -2451,7 +2451,7 @@
           "columnIds": [
             "hnuy_JSDQO5x5MDpHcmlF"
           ],
-          "x": 275.4729,
+          "x": 267.4729,
           "y": 727.4504,
           "direction": 2
         },
