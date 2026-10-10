@@ -24,7 +24,7 @@ Create Table artista (
 
 Create Table portafolio (
 	id_portafolio Int auto_increment Not Null Unique,
-    id_artista Int Not Null Unique,
+    id_artista Int Not Null,
     descripcion text,
     Primary key (id_portafolio),
     Foreign Key (id_artista) References artista(id_artista)
@@ -32,7 +32,7 @@ Create Table portafolio (
 
 Create Table obra (
 	id_obra Int auto_increment Not Null Unique, -- Primary Foreign Key in detalle_licencia
-    id_portafolio Int Not Null Unique,
+    id_portafolio Int Not Null,
     nombre varchar(25) Not Null,
     descripcion text,
     tipo_tecnica varchar(30) Not Null,
@@ -48,9 +48,9 @@ Create Table obra (
 
 Create Table red_social (
 	id_red_social Int auto_increment Not Null Unique,
-    id_artista Int Not Null Unique,
+    id_artista Int Not Null,
     nombre varchar(25) Not Null,
-    url varchar(225) Not Null,
+    link varchar(225) Not Null,
     Primary Key (id_red_social),
     Foreign Key (id_artista) References artista(id_artista)
 );
@@ -68,7 +68,7 @@ Create Table empresa (
 
 Create Table licencia (
 	id_licencia Int auto_increment Not Null Unique, -- Primary Foreign Key in detalle_licencia
-    id_empresa Int Not Null Unique,
+    id_empresa Int Not Null,
     tipo_licencia varchar(25) Not Null,
     documento_legal varbinary(255) Not Null Unique,
     fecha_emision Datetime Not Null,
