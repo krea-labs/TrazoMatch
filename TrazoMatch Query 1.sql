@@ -17,7 +17,7 @@ Create Table artista (
     apellido varchar(25) Not Null,
     nombre_artistico varchar(25) Not Null Unique,
     biografia text,
-    telefono Int Not Null,
+    telefono varchar(15) Not Null,
     Primary Key (id_artista),
     Foreign Key (id_artista) References cuenta(id_cuenta)
 ) ENGINE=INNODB;
@@ -38,7 +38,7 @@ Create Table obra (
     tipo_tecnica varchar(30) Not Null,
     estilo varchar(30) Not Null,
     paleta_colores varchar(30) Not Null,
-    imagen varbinary(256) Not Null,
+    imagen varchar(500) Not Null,
     es_licenciable Bool Not Null,
     precio_base Decimal(10,2) Not Null,
     fecha_creacion Datetime Not Null,
@@ -61,7 +61,7 @@ Create Table empresa (
     ruc varchar(11) Not Null Unique,
     nombre_representante varchar(25) Not Null,
     apellido_representante varchar(25) Not Null,
-    telefono Int Not Null Unique,
+    telefono varchar(15) Not Null Unique,
     Primary Key (id_empresa),
     Foreign Key (id_empresa) References cuenta(id_cuenta)
 ) ENGINE=INNODB;
