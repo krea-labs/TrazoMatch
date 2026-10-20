@@ -42,7 +42,8 @@
 - ```Special: Warning <type>(<section>)!: <text>```
 
 Example:
-``` feat(api): remove old endpoint ```
+    
+    feat(api): remove old endpoint
 
 # Instructions
 You need to Work first in 
