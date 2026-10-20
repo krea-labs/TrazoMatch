@@ -8,31 +8,29 @@
 - ~MySQL Shell for VS Code: https://marketplace.visualstudio.com/items?itemName=Oracle.mysql-shell-for-vs-code~
     - MySQL Shell for VS Code: https://drive.google.com/drive/folders/10oK3neHdxX-VhqsYTPQ79QN7gDCWHEqS?usp=sharing
     Unzip the file in this path:
-    > macOS :
+        - macOS :
+          - Command:
+            
+                  ~/.vscode/extensions
+          - Path:
+          
+                  Users/<YourUsername>/.vscode/extentions
 
-        Command: 
-            ~/.vscode/extensions
+        - Linux :
+          - Command:
+            
+                  ~/.vscode/extensions
+          - Path:
+            
+                 /home/<YourUsername>/.vscode/extensions
 
-        Path: 
-            Users/<YourUsername>/.vscode/extentions
-
-
-    > Linux :
-
-        Command: 
-            ~/.vscode/extensions
-
-        Path: 
-            /home/<YourUsername>/.vscode/extensions
-
-
-    > Windows :
-
-        Command: 
-            %USERPROFILE%\.vscode\extensions
-
-        Path: 
-            C:\Users\<YourUsername>\.vscode\extensions
+        - Windows :
+          - Command:
+            
+                  %USERPROFILE%\.vscode\extensions
+          - Path:
+            
+                 C:\Users\<YourUsername>\.vscode\extensions
 
 # Conventional Comits
 - feat: Introduces a new feature (correlates with MINOR in semantic versioning).
