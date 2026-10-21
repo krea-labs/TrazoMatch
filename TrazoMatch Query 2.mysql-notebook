@@ -2,11 +2,11 @@
     "type": "MySQLNotebook",
     "version": "1.0",
     "caption": "TrazoMatch Query 2.sql",
-    "content": "Use TrazoMatch;\n\nInsert Into cuenta (correo, contrasena, tipo_usuario, fecha_creacion) Values ('akumaheart@gmail.com','artist123',2,'2026-10-7');\nSelect * From cuenta;\n\n",
+    "content": "Use TrazoMatch;\n\nInsert Into T_cuenta (correo, contrasena, tipo_usuario, fecha_creacion) Values ('akumaheart@gmail.com','artist123',2,'2026-10-7');\nSelect * From T_cuenta;\n\n",
     "options": {
         "tabSize": 4,
-        "indentSize": 4,
         "insertSpaces": true,
+        "indentSize": 4,
         "defaultEOL": "LF",
         "trimAutoWhitespace": true
     },
@@ -32,7 +32,7 @@
                         "delimiter": ";",
                         "span": {
                             "start": 15,
-                            "length": 130
+                            "length": 132
                         },
                         "contentStart": 17,
                         "state": 0
@@ -40,19 +40,19 @@
                     {
                         "delimiter": ";",
                         "span": {
-                            "start": 145,
-                            "length": 22
+                            "start": 147,
+                            "length": 24
                         },
-                        "contentStart": 146,
+                        "contentStart": 148,
                         "state": 0
                     },
                     {
                         "delimiter": ";",
                         "span": {
-                            "start": 167,
+                            "start": 171,
                             "length": 2
                         },
-                        "contentStart": 166,
+                        "contentStart": 170,
                         "state": 3
                     }
                 ]

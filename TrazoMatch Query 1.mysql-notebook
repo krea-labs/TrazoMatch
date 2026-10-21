@@ -1,12 +1,12 @@
 {
     "type": "MySQLNotebook",
     "version": "1.0",
-    "caption": "TrazoMatch Query1.sql",
-    "content": "Create Database TrazoMatch;\nUse TrazoMatch;\n\nCreate Table cuenta (\n\tid_cuenta Int auto_increment Not Null Unique,\n    correo varchar(25) Not Null Unique,\n    contrasena varchar(25) Not Null,\n    tipo_usuario Int Not Null, \n-- Tipo de Usuario: 1 (Segmento 1: Empresas), 2 (Segmento 2: [Artistas, Diseñadores Graficos, etc])\n    fecha_creacion Datetime Not Null,\n    Primary Key (id_cuenta)\n) ENGINE=INNODB;\n\nCreate Table artista (\n\tid_artista Int auto_increment Not Null Unique, -- Primary Foreign Key\n    nombre varchar(25) Not Null,\n    apellido varchar(25) Not Null,\n    nombre_artistico varchar(25) Not Null Unique,\n    biografia text,\n    telefono varchar(15) Not Null,\n    Primary Key (id_artista),\n    Foreign Key (id_artista) References cuenta(id_cuenta)\n) ENGINE=INNODB;\n\nCreate Table portafolio (\n\tid_portafolio Int auto_increment Not Null Unique,\n    id_artista Int Not Null,\n    descripcion text,\n    Primary key (id_portafolio),\n    Foreign Key (id_artista) References artista(id_artista)\n);\n\nCreate Table obra (\n\tid_obra Int auto_increment Not Null Unique, -- Primary Foreign Key in detalle_licencia\n    id_portafolio Int Not Null,\n    nombre varchar(25) Not Null,\n    descripcion text,\n    tipo_tecnica varchar(30) Not Null,\n    estilo varchar(30) Not Null,\n    paleta_colores varchar(30) Not Null,\n    imagen varchar(500) Not Null,\n    es_licenciable Bool Not Null,\n    precio_base Decimal(10,2),\n    fecha_creacion Datetime Not Null,\n    Primary Key (id_obra),\n    Foreign Key (id_portafolio) References portafolio(id_portafolio)\n) ENGINE=INNODB;\n\nCreate Table red_social (\n\tid_red_social Int auto_increment Not Null Unique,\n    id_artista Int Not Null,\n    nombre varchar(25) Not Null,\n    link varchar(500) Not Null,\n    Primary Key (id_red_social),\n    Foreign Key (id_artista) References artista(id_artista)\n);\n\nCreate Table empresa (\n\tid_empresa Int auto_increment Not Null Unique, -- Primary Foreign Key\n    razon_social varchar(100) Not Null,\n    ruc varchar(11) Not Null Unique,\n    nombre_representante varchar(25) Not Null,\n    apellido_representante varchar(25) Not Null,\n    telefono varchar(15) Not Null Unique,\n    Primary Key (id_empresa),\n    Foreign Key (id_empresa) References cuenta(id_cuenta)\n) ENGINE=INNODB;\n\nCreate Table licencia (\n\tid_licencia Int auto_increment Not Null Unique, -- Primary Foreign Key in detalle_licencia\n    id_empresa Int Not Null,\n    tipo_licencia varchar(25) Not Null,\n    documento_legal varbinary(255) Not Null Unique,\n    fecha_emision Datetime Not Null,\n    Primary Key (id_licencia),\n    Foreign Key (id_empresa) References empresa(id_empresa)\n) ENGINE=INNODB;\n\nCreate Table detalle_licencia (\n\tid_licencia Int Not Null Unique, -- Primary Foreign Key\n    id_obra Int Not Null Unique, -- Primary Foreign Key\n\tPrimary Key (id_licencia, id_obra),\n    Foreign Key (id_licencia) References licencia(id_licencia),\n    Foreign Key (id_obra) References obra(id_obra)\n) ENGINE=INNODB;\n\nCreate Table resena (\n\tid_artista Int Not Null Unique, -- Primary Foreign Key\n    id_empresa Int Not Null Unique, -- Primary Foreign Key\n    calificacion Int Not Null,\n    comentario Text,\n    fecha_resena Datetime Not Null,\n    Foreign Key (id_artista) References artista(id_artista),\n    Foreign Key (id_empresa) References empresa(id_empresa)\n) ENGINE=INNODB;\n\nCreate Table encargo (\n\tid_encargo Int auto_increment Not Null Unique,\n    id_empresa Int Not Null Unique,\n    id_artista Int Not Null Unique,\n    nombre varchar(25) Not Null,\n    descripcion Text,\n    estado Int Not Null, -- Estado: 1 (pendiente), 2 (en proceso), 3 (Finalizado)\n    Primary Key (id_encargo),\n    Foreign Key (id_empresa) References empresa(id_empresa),\n    Foreign Key (id_artista) References artista(id_artista)\n);\n\nCreate Table pago (\n\tid_pago Int auto_increment Not Null Unique,\n    id_licencia Int Not Null Unique,\n    id_encargo Int Not Null Unique,\n    monto Decimal(10,2) Not Null,\n    metodo_pago varchar(25) Not Null,\n    estado_pago Int Not Null, -- Estado Pago: 1 (pendiente), 2 (procesando), 3 (Pagado), 4 (pago rechazado)\n    fecha_pago Datetime Not Null,\n    Primary Key (id_pago),\n    Foreign Key (id_licencia) References licencia(id_licencia),\n    Foreign key (id_encargo) References encargo(id_encargo)\n);\n",
+    "caption": "TrazoMatch Query 1.sql",
+    "content": "Create Database TrazoMatch;\nUse TrazoMatch;\n\nCreate Table T_cuenta (\n\tid_cuenta Int auto_increment Not Null Unique,\n    correo varchar(25) Not Null Unique,\n    contrasena varchar(25) Not Null,\n    tipo_usuario Int Not Null, \n-- Tipo de Usuario: 1 (Segmento 1: Empresas), 2 (Segmento 2: [Artistas, Diseñadores Graficos, etc])\n    fecha_creacion Datetime Not Null,\n    Primary Key (id_cuenta)\n) ENGINE=INNODB;\n\nCreate Table T_artista (\n\tid_artista Int auto_increment Not Null Unique, -- Primary Foreign Key\n    nombre varchar(25) Not Null,\n    apellido varchar(25) Not Null,\n    nombre_artistico varchar(25) Not Null Unique,\n    biografia text,\n    telefono varchar(15) Not Null,\n    Primary Key (id_artista),\n    Foreign Key (id_artista) References T_cuenta(id_cuenta)\n) ENGINE=INNODB;\n\nCreate Table T_portafolio (\n\tid_portafolio Int auto_increment Not Null Unique,\n    id_artista Int Not Null,\n    descripcion text,\n    Primary key (id_portafolio),\n    Foreign Key (id_artista) References T_artista(id_artista)\n);\n\nCreate Table T_obra (\n\tid_obra Int auto_increment Not Null Unique, -- Primary Foreign Key in detalle_licencia\n    id_portafolio Int Not Null,\n    nombre varchar(25) Not Null,\n    descripcion text,\n    tipo_tecnica varchar(30) Not Null,\n    estilo varchar(30) Not Null,\n    paleta_colores varchar(30) Not Null,\n    imagen varchar(500) Not Null,\n    es_licenciable Bool Not Null,\n    precio_base Decimal(10,2) Not Null,\n    fecha_creacion Datetime Not Null,\n    Primary Key (id_obra),\n    Foreign Key (id_portafolio) References T_portafolio(id_portafolio)\n) ENGINE=INNODB;\n\nCreate Table red_social (\n\tid_red_social Int auto_increment Not Null Unique,\n    id_artista Int Not Null,\n    nombre varchar(25) Not Null,\n    link varchar(500) Not Null,\n    Primary Key (id_red_social),\n    Foreign Key (id_artista) References T_artista(id_artista)\n);\n\nCreate Table T_empresa (\n\tid_empresa Int auto_increment Not Null Unique, -- Primary Foreign Key\n    razon_social varchar(100) Not Null,\n    ruc varchar(11) Not Null Unique,\n    nombre_representante varchar(25) Not Null,\n    apellido_representante varchar(25) Not Null,\n    telefono varchar(15) Not Null Unique,\n    Primary Key (id_empresa),\n    Foreign Key (id_empresa) References T_cuenta(id_cuenta)\n) ENGINE=INNODB;\n\nCreate Table T_licencia (\n\tid_licencia Int auto_increment Not Null Unique, -- Primary Foreign Key in detalle_licencia\n    id_empresa Int Not Null,\n    tipo_licencia varchar(25) Not Null,\n    documento_legal varbinary(255) Not Null Unique,\n    fecha_emision Datetime Not Null,\n    Primary Key (id_licencia),\n    Foreign Key (id_empresa) References T_empresa(id_empresa)\n) ENGINE=INNODB;\n\nCreate Table T_detalle_licencia (\n\tid_licencia Int Not Null Unique, -- Primary Foreign Key\n    id_obra Int Not Null Unique, -- Primary Foreign Key\n\tPrimary Key (id_licencia, id_obra),\n    Foreign Key (id_licencia) References T_licencia(id_licencia),\n    Foreign Key (id_obra) References T_obra(id_obra)\n) ENGINE=INNODB;\n\nCreate Table T_resena (\n\tid_artista Int Not Null Unique, -- Primary Foreign Key\n    id_empresa Int Not Null Unique, -- Primary Foreign Key\n    calificacion Int Not Null,\n    comentario Text,\n    fecha_resena Datetime Not Null,\n    Foreign Key (id_artista) References T_artista(id_artista),\n    Foreign Key (id_empresa) References T_empresa(id_empresa)\n) ENGINE=INNODB;\n\nCreate Table T_encargo (\n\tid_encargo Int auto_increment Not Null Unique,\n    id_empresa Int Not Null Unique,\n    id_artista Int Not Null Unique,\n    nombre varchar(25) Not Null,\n    descripcion Text,\n    estado Int Not Null, -- Estado: 1 (pendiente), 2 (en proceso), 3 (Finalizado)\n    Primary Key (id_encargo),\n    Foreign Key (id_empresa) References T_empresa(id_empresa),\n    Foreign Key (id_artista) References T_artista(id_artista)\n);\n\nCreate Table T_pago (\n\tid_pago Int auto_increment Not Null Unique,\n    id_licencia Int Not Null Unique,\n    id_encargo Int Not Null Unique,\n    monto Decimal(10,2) Not Null,\n    metodo_pago varchar(25) Not Null,\n    estado_pago Int Not Null, -- Estado Pago: 1 (pendiente), 2 (procesando), 3 (Pagado), 4 (pago rechazado)\n    fecha_pago Datetime Not Null,\n    Primary Key (id_pago),\n    Foreign Key (id_licencia) References T_licencia(id_licencia),\n    Foreign key (id_encargo) References T_encargo(id_encargo)\n);\n",
     "options": {
         "tabSize": 4,
-        "indentSize": 4,
         "insertSpaces": true,
+        "indentSize": 4,
         "defaultEOL": "LF",
         "trimAutoWhitespace": true
     },
@@ -15,11 +15,11 @@
             {
                 "inSelectionMode": false,
                 "selectionStart": {
-                    "lineNumber": 68,
+                    "lineNumber": 1,
                     "column": 1
                 },
                 "position": {
-                    "lineNumber": 68,
+                    "lineNumber": 1,
                     "column": 1
                 }
             }
@@ -27,10 +27,10 @@
         "viewState": {
             "scrollLeft": 0,
             "firstPosition": {
-                "lineNumber": 53,
+                "lineNumber": 1,
                 "column": 1
             },
-            "firstPositionDeltaTop": -8
+            "firstPositionDeltaTop": 0
         },
         "contributionsState": {
             "editor.contrib.folding": {},
@@ -43,18 +43,6 @@
                 "start": 1,
                 "end": 121,
                 "language": "mysql",
-                "result": {
-                    "type": "text",
-                    "text": [
-                        {
-                            "type": 2,
-                            "index": 0,
-                            "resultId": "d9dd3280-6c69-4284-d48a-31935b34bc0e",
-                            "content": "OK, 0 records retrieved in 96.803ms"
-                        }
-                    ]
-                },
-                "currentHeight": 28,
                 "currentSet": 1,
                 "statements": [
                     {
@@ -79,7 +67,7 @@
                         "delimiter": ";",
                         "span": {
                             "start": 43,
-                            "length": 362
+                            "length": 364
                         },
                         "contentStart": 45,
                         "state": 0
@@ -87,101 +75,92 @@
                     {
                         "delimiter": ";",
                         "span": {
-                            "start": 405,
-                            "length": 373
+                            "start": 407,
+                            "length": 377
                         },
-                        "contentStart": 407,
+                        "contentStart": 409,
                         "state": 0
                     },
                     {
                         "delimiter": ";",
                         "span": {
-                            "start": 778,
-                            "length": 225
+                            "start": 784,
+                            "length": 229
                         },
-                        "contentStart": 780,
+                        "contentStart": 786,
                         "state": 0
                     },
                     {
                         "delimiter": ";",
                         "span": {
-                            "start": 1003,
-                            "length": 559
+                            "start": 1013,
+                            "length": 572
                         },
-                        "contentStart": 1005,
+                        "contentStart": 1015,
                         "state": 0
                     },
                     {
                         "delimiter": ";",
                         "span": {
-                            "start": 1562,
-                            "length": 268
+                            "start": 1585,
+                            "length": 270
                         },
-                        "contentStart": 1564,
+                        "contentStart": 1587,
                         "state": 0
                     },
                     {
                         "delimiter": ";",
                         "span": {
-                            "start": 1830,
-                            "length": 415
+                            "start": 1855,
+                            "length": 419
                         },
-                        "contentStart": 1832,
+                        "contentStart": 1857,
                         "state": 0
                     },
                     {
                         "delimiter": ";",
                         "span": {
-                            "start": 2245,
-                            "length": 383
+                            "start": 2274,
+                            "length": 387
                         },
-                        "contentStart": 2247,
+                        "contentStart": 2276,
                         "state": 0
                     },
                     {
                         "delimiter": ";",
                         "span": {
-                            "start": 2628,
-                            "length": 315
+                            "start": 2661,
+                            "length": 321
                         },
-                        "contentStart": 2630,
+                        "contentStart": 2663,
                         "state": 0
                     },
                     {
                         "delimiter": ";",
                         "span": {
-                            "start": 2943,
-                            "length": 364
+                            "start": 2982,
+                            "length": 370
                         },
-                        "contentStart": 2945,
-                        "state": 0
-                    },
-                    {
-                        "delimiter": ";",
-                        "span": {
-                            "start": 3307,
-                            "length": 435
-                        },
-                        "contentStart": 3309,
-                        "state": 0
-                    },
-                    {
-                        "delimiter": ";",
-                        "span": {
-                            "start": 3742,
-                            "length": 507
-                        },
-                        "contentStart": 3744,
-                        "state": 0
-                    },
-                    {
-                        "delimiter": ";",
-                        "span": {
-                            "start": 4249,
-                            "length": 1
-                        },
-                        "contentStart": 4248,
+                        "contentStart": 2984,
                         "state": 3
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 3352,
+                            "length": 441
+                        },
+                        "contentStart": 3354,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 3793,
+                            "length": 513
+                        },
+                        "contentStart": 3795,
+                        "state": 0
                     }
                 ]
             },

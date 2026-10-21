@@ -2,41 +2,15 @@
     "type": "MySQLNotebook",
     "version": "1.0",
     "caption": "TrazoMatch Drop.sql",
-    "content": "Use TrazoMatch;\n\n-- In case we need to modified something DO NOT RUN\nDrop Database TrazoMatch;\n\nDrop Table artista;\nDrop Table cuenta;\nDrop Table detalle_licencia;\nDrop Table empresa;\nDrop Table encargo;\nDrop Table licencia;\nDrop Table obra;\nDrop Table pago;\nDrop Table portafolio;\nDrop Table red_social;\nDrop Table resena;",
+    "content": "Use TrazoMatch;\n\n-- In case we need to modified something DO NOT RUN\nDrop Database TrazoMatch;\n\nDrop Table T_artista;\nDrop Table T_cuenta;\nDrop Table T_detalle_licencia;\nDrop Table T_empresa;\nDrop Table T_encargo;\nDrop Table T_licencia;\nDrop Table T_obra;\nDrop Table T_pago;\nDrop Table T_portafolio;\nDrop Table T_red_social;\nDrop Table T_resena;",
     "options": {
         "tabSize": 4,
-        "indentSize": 4,
         "insertSpaces": true,
+        "indentSize": 4,
         "defaultEOL": "LF",
         "trimAutoWhitespace": true
     },
-    "viewState": {
-        "cursorState": [
-            {
-                "inSelectionMode": false,
-                "selectionStart": {
-                    "lineNumber": 2,
-                    "column": 1
-                },
-                "position": {
-                    "lineNumber": 2,
-                    "column": 1
-                }
-            }
-        ],
-        "viewState": {
-            "scrollLeft": 0,
-            "firstPosition": {
-                "lineNumber": 1,
-                "column": 1
-            },
-            "firstPositionDeltaTop": 0
-        },
-        "contributionsState": {
-            "editor.contrib.folding": {},
-            "editor.contrib.wordHighlighter": false
-        }
-    },
+    "viewState": null,
     "contexts": [
         {
             "state": {
@@ -67,7 +41,7 @@
                         "delimiter": ";",
                         "span": {
                             "start": 94,
-                            "length": 21
+                            "length": 23
                         },
                         "contentStart": 97,
                         "state": 0
@@ -75,8 +49,8 @@
                     {
                         "delimiter": ";",
                         "span": {
-                            "start": 115,
-                            "length": 19
+                            "start": 117,
+                            "length": 1
                         },
                         "contentStart": 117,
                         "state": 0
@@ -84,82 +58,109 @@
                     {
                         "delimiter": ";",
                         "span": {
-                            "start": 134,
-                            "length": 29
-                        },
-                        "contentStart": 136,
-                        "state": 0
-                    },
-                    {
-                        "delimiter": ";",
-                        "span": {
-                            "start": 163,
+                            "start": 118,
                             "length": 20
                         },
-                        "contentStart": 165,
-                        "state": 0
+                        "contentStart": 120,
+                        "state": 3
                     },
                     {
                         "delimiter": ";",
                         "span": {
-                            "start": 183,
-                            "length": 20
+                            "start": 138,
+                            "length": 2
                         },
-                        "contentStart": 185,
+                        "contentStart": 138,
                         "state": 0
                     },
                     {
                         "delimiter": ";",
                         "span": {
-                            "start": 203,
-                            "length": 21
+                            "start": 140,
+                            "length": 31
                         },
-                        "contentStart": 205,
+                        "contentStart": 142,
                         "state": 0
                     },
                     {
                         "delimiter": ";",
                         "span": {
-                            "start": 224,
+                            "start": 209,
+                            "length": 5
+                        },
+                        "contentStart": 209,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 214,
                             "length": 17
                         },
-                        "contentStart": 226,
-                        "state": 0
+                        "contentStart": 216,
+                        "state": 3
                     },
                     {
                         "delimiter": ";",
                         "span": {
-                            "start": 241,
-                            "length": 17
+                            "start": 193,
+                            "length": 22
                         },
-                        "contentStart": 243,
+                        "contentStart": 195,
                         "state": 0
                     },
                     {
                         "delimiter": ";",
                         "span": {
-                            "start": 258,
+                            "start": 215,
                             "length": 23
                         },
-                        "contentStart": 260,
+                        "contentStart": 217,
                         "state": 0
                     },
                     {
                         "delimiter": ";",
                         "span": {
-                            "start": 281,
-                            "length": 23
-                        },
-                        "contentStart": 283,
-                        "state": 0
-                    },
-                    {
-                        "delimiter": ";",
-                        "span": {
-                            "start": 304,
+                            "start": 238,
                             "length": 19
                         },
-                        "contentStart": 306,
+                        "contentStart": 240,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 257,
+                            "length": 19
+                        },
+                        "contentStart": 259,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 276,
+                            "length": 25
+                        },
+                        "contentStart": 278,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 301,
+                            "length": 25
+                        },
+                        "contentStart": 303,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 326,
+                            "length": 21
+                        },
+                        "contentStart": 328,
                         "state": 0
                     }
                 ]
