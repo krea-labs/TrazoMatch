@@ -76,8 +76,8 @@
           "_Mongfuz4hBg9iwlEPfPI"
         ],
         "ui": {
-          "x": -156.199,
-          "y": 425.9074
+          "x": -180.1426,
+          "y": 475.2039
         }
       },
       "2LaluS6MarpgR6C2pe6zy": {
@@ -93,8 +93,8 @@
           "03h9ry8j7cisw50ml34pw9743"
         ],
         "ui": {
-          "x": -189.0167,
-          "y": 9.0281
+          "x": -196.0592,
+          "y": 34.3805
         }
       },
       "3KZb6n_yGWhzlgoQ54P8N": {
@@ -108,8 +108,8 @@
           "NFPnL5v1mHYkh10kB8qnj"
         ],
         "ui": {
-          "x": 840.0323,
-          "y": 11.722
+          "x": 837.2153,
+          "y": 17.356
         }
       },
       "8lAMRKODaV9iSJYNPoK_9": {
@@ -121,8 +121,8 @@
           "EDvVhB0Qcs1XOD0ZKtHpR"
         ],
         "ui": {
-          "x": -178.7887,
-          "y": 273.5084
+          "x": -129.4915,
+          "y": 303.0868
         }
       },
       "9v8k2yAJce7-wytPbj0bl": {
@@ -153,8 +153,8 @@
           "aGRvLC1P__riQoDQ3NXyO"
         ],
         "ui": {
-          "x": 345.599,
-          "y": 388.9278
+          "x": 330.1055,
+          "y": 414.2804
         }
       },
       "LZn2SvhqNKvAgR6HSvwlj": {
@@ -185,8 +185,8 @@
           "C70R8-vZ_DHoWqP5rOIu8"
         ],
         "ui": {
-          "x": 293.5532,
-          "y": 169.8116
+          "x": 375.2449,
+          "y": 192.3474
         }
       },
       "qMp3Qb9k7FodWombd8aEQ": {
@@ -197,8 +197,8 @@
           "pWhWieMPc1jPA80ERouY_"
         ],
         "ui": {
-          "x": 434.9871,
-          "y": 599.4582
+          "x": 412.4511,
+          "y": 626.2196
         }
       },
       "s5G-v0N1oUACKhT8UxSIV": {
@@ -228,8 +228,8 @@
           "03h9s20rw7gxzns682zfql9gi"
         ],
         "ui": {
-          "x": 1036.9746,
-          "y": 569.3049
+          "x": 1070.7784,
+          "y": 555.2201
         }
       }
     },
@@ -471,7 +471,7 @@
         "id": "O7HbiSAZvh5nuEmURohDZ",
         "tableId": "JTIg3VMd7MFdVdF3caj7V",
         "name": "estadoPago",
-        "comment": "CHECK IF estadoPago IN ('Completado', 'Pendiente', 'Rechazado')",
+        "comment": "CHECK (estadoPago IN ('Completado', 'Pendiente', 'Rechazado'))",
         "dataType": "VARCHAR(30)",
         "default": "'Pendiente'",
         "options": 8
@@ -517,7 +517,7 @@
         "id": "LKhEmr5rstXEkp3hqskao",
         "tableId": "LZn2SvhqNKvAgR6HSvwlj",
         "name": "tipoUsuario",
-        "comment": "CHECK IF tipoUsuario IN (1, 2)",
+        "comment": "CHECK (tipoUsuario IN (1, 2))",
         "dataType": "INTEGER",
         "default": "1",
         "options": 8
@@ -554,8 +554,8 @@
         "id": "C70R8-vZ_DHoWqP5rOIu8",
         "tableId": "leawa1apAw_9ZmrEcqD6u",
         "name": "estadoEncargo",
-        "comment": "CHECK IF estado IN ('Aceptado', 'En proceso', 'En revisión', 'Terminado', 'Cancelado')",
-        "dataType": "INTEGER",
+        "comment": "CHECK (estado IN ('Aceptado', 'En proceso', 'En revisión', 'Terminado', 'Cancelado'))",
+        "dataType": "VARCHAR(20)",
         "default": "'En proceso'",
         "options": 8
       },
@@ -570,7 +570,7 @@
         "id": "UFYyKJ3v2EkiYutksMY3A",
         "tableId": "leawa1apAw_9ZmrEcqD6u",
         "name": "nombreEncargo",
-        "dataType": "VARCHAR",
+        "dataType": "VARCHAR(100)",
         "options": 8
       },
       "Yq6e1ncy40Q5UIs1PdGSX": {
