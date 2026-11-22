@@ -2,6 +2,8 @@
 > [!Caution]
 > First of all is important to not get in panic. Follow this protocol to change your commit
 
+Translations: **English** · [Español](translations/spanish/Fix_Commit_Protocol-SPA.md)
+
 - First of all DO NOT DO ANYTHING ELSE
 
 > [!Caution]
