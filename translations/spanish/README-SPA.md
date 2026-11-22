@@ -75,7 +75,7 @@ SOURCE "relational database/data insertion/data_insertion.sql";
 Las rutas deben ejecutarse desde la raíz del repositorio o reemplazarse por la ruta absoluta correspondiente.
 
 > [!Important]
-> Los datos de [data_insertion.sql](relational%20database/data%20insertion/data_insertion.sql) son datos de demostración.
+> Los datos de [data_insertion.sql](../../relational%20database/data%20insertion/data_insertion.sql) son datos de demostración.
 
 ## 📂 Estructura del repositorio
 
@@ -100,7 +100,7 @@ krea-labs/TrazoMatch/
 ```
 
 > [!CAUTION]
-> El script [drop_database_tables.sql](relational%20database/database%20creation/drop_database_tables.sql) elimina tablas y la base de datos completa. No debe ejecutarse sin previo aviso y No debe ejecutarse cuando la base de datos tenga datos reales.
+> El script [drop_database_tables.sql](../../relational%20database/database%20creation/drop_database_tables.sql) elimina tablas y la base de datos completa. No debe ejecutarse sin previo aviso y No debe ejecutarse cuando la base de datos tenga datos reales.
 
 ## 🖱️ Consulta de ejemplo
 
@@ -115,11 +115,11 @@ WHERE T_Obra.paletaColores LIKE '%rojo%'
   AND T_Obra.paletaColores LIKE '%azul%';
 ```
 
-El script completo está disponible en [queries.sql](relational%20database/general%20queries/queries.sql).
+El script completo está disponible en [queries.sql](../../relational%20database/general%20queries/queries.sql).
 
 ## 🗃️ Recursos adicionales
 
 - [Informe del proyecto](https://docs.google.com/document/d/1CwY6CU1f4eqbhTzVcTMwPEG143-DnSkrk0J3_-Iv_E4/edit?usp=sharing)
 - [Presentación del proyecto](https://canva.link/kqo6kmhisfewy4x)
-- [Diagrama editable](Diagram.erd)
+- [Diagrama editable](../../Diagram.erd)
 - [Guía de colaboración](Collaboration.md)
