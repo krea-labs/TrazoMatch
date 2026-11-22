@@ -2,6 +2,8 @@
 > [!Important]
 > ⚠️ Collaboration is restricted to the Organization's Owners only;
 
+Translations: **English** · [Español](translations/spanish/Collaboration-SPA.md)
+
 # Tools and Language
 - Visual Studio Code: https://code.visualstudio.com/download?_exp_download=d53503e735
 - MySQL: https://dev.mysql.com/downloads/
