@@ -85,7 +85,7 @@ git pull --rebase
 
 > [!Caution]
 > In case you send a commit incomplete or wrong by accident click and Follow the file below 
-[Fix_Commit_Protocol](https://github.com/krea-labs/TrazoMatch/blob/main/Fix_Commit_Protocol.md)
+[Fix_Commit_Protocol](Fix_Commit_Protocol.md)
 
 - Test everything
 
