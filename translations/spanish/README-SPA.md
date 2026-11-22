@@ -122,4 +122,4 @@ El script completo está disponible en [queries.sql](../../relational%20database
 - [Informe del proyecto](https://docs.google.com/document/d/1CwY6CU1f4eqbhTzVcTMwPEG143-DnSkrk0J3_-Iv_E4/edit?usp=sharing)
 - [Presentación del proyecto](https://canva.link/kqo6kmhisfewy4x)
 - [Diagrama editable](../../Diagram.erd)
-- [Guía de colaboración](Collaboration.md)
+- [Guía de colaboración](Collaboration-SPA.md)
