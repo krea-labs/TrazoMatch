@@ -95,6 +95,7 @@ krea-labs/TrazoMatch/
 │       └── queries.sql
 ├── Collaboration.md
 ├── Diagram.erd
+├── Fix_Commit_Protocol.md
 └── README.md
 ```
 
