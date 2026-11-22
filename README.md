@@ -54,6 +54,11 @@ TrazoMatch utiliza una base de datos MySQL llamada `TrazoMatch`. La base disting
 
 - MySQL 8 o compatible
 - MySQL Workbench, MySQL Shell o cliente SQL
+- Visual Studio Code, VS Codium, GitHub Desktop u Otro IDE compatible con Lenguaje SQL que permita clonar repositorios.
+- SQLTools VS Code Extension (Tambien funciona en VS Codium) by Matheus Teixeira u otra extension compatible con MySQL.
+
+> [!Important]
+> Revisa [Collaboration.md](https://github.com/krea-labs/TrazoMatch/blob/main/Collaboration.md) en la seccion de Tools and Language donde encontraras los links para las herramientes, extenciones y el lenguaje para trabajar en el proyecto
 
 ### Crear e insertar la base de datos
 
