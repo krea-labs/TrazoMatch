@@ -60,7 +60,7 @@ TrazoMatch utiliza una base de datos MySQL llamada `TrazoMatch`. La base disting
 - SQLTools VS Code Extension (Tambien funciona en VS Codium) by Matheus Teixeira u otra extension compatible con MySQL.
 
 > [!Important]
-> Revisa [Collaboration.md](Collaboration.md) en la seccion de ```Tools and Language``` donde encontraras los links para las herramientes, extenciones y el lenguaje para trabajar en el proyecto
+> Revisa [Collaboration.md](Collaboration-SPA.md) en la seccion de ```Tools and Language``` donde encontraras los links para las herramientes, extenciones y el lenguaje para trabajar en el proyecto
 
 ### Crear e insertar la base de datos
 
