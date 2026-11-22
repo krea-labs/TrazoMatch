@@ -39,7 +39,7 @@ First clone this repository in Visual Studio Code
 - Now you work directly in file.sql directly
     Example:
 
-    ```git
+    ```text
     relational database/data insertion/data_insetion.sql
     ```
 
@@ -48,7 +48,8 @@ First clone this repository in Visual Studio Code
 ```git
 git add .
 git commit -m "<commit-message>"
-git push```
+git push
+```
 
 - Test everything
 
