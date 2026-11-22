@@ -2,7 +2,7 @@
 > [!Important]
 > ⚠️ Collaboration is restricted to the Organization's Owners only;
 
-# Tools an Languages
+# Tools and Language
 - Visual Studio Code: https://code.visualstudio.com/download?_exp_download=d53503e735
 - MySQL: https://dev.mysql.com/downloads/
 - MySQL Workbench: https://dev.mysql.com/downloads/workbench/
