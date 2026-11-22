@@ -37,6 +37,7 @@ First clone this repository in Visual Studio Code
     ```
 
 - Use SQLTools to conect to the database
+
     > [!Important]
     > You have to install SQLTools (VS Code Extension) by Matheus Teixeira first
 
@@ -45,6 +46,7 @@ First clone this repository in Visual Studio Code
     - And finally add new conection
 
 - Now you work directly in file.sql directly
+    
     Example:
 
     ```text
