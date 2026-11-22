@@ -24,7 +24,13 @@ First clone this repository in Visual Studio Code
     ```
 
 > [!Important]
-> We use GitHub Flow
+> If you alredy clone the repo in your devide run the command below before anything to prevent merge conflicts
+```git
+git pull --rebase
+```
+
+> [!Important]
+> We use GitHub Flow because is more faster than Git Flow
 
 - Create a new branch
     ```git
@@ -35,6 +41,7 @@ First clone this repository in Visual Studio Code
     ```git
     git push --set-upstream origin feature/[FEATURE_NAME]
     ```
+
 > [!Important]
 > You have to install SQLTools (VS Code Extension) by Matheus Teixeira first
 
