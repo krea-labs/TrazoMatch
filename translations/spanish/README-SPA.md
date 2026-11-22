@@ -6,7 +6,7 @@
 
 El proyecto incluye el diseño entidad-relación, los scripts de creación de tablas, datos de ejemplo y consultas SQL sobre la base de datos en MySQL.
 
-Traducciones: [English](README.md) · **Español**
+Traducciones: [English](../../README.md) · **Español**
 
 ## 👥 Equipo
 

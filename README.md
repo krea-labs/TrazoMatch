@@ -6,7 +6,7 @@
 
 The project includes the entity-relationship design, table creation scripts, sample data, and SQL queries on the MySQL database.
 
-Translations: **English** · [Español](README-SPA.md)
+Translations: **English** · [Español](translations/spanish/README-SPA.md)
 
 ## 👥 Team
 
