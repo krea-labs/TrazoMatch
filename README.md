@@ -67,6 +67,7 @@ SOURCE "relational database/data insertion/data_insertion.sql";
 
 Las rutas deben ejecutarse desde la raíz del repositorio o reemplazarse por la ruta absoluta correspondiente.
 
+> [!Important]
 > Los datos de [data_insertion.sql](relational%20database/data%20insertion/data_insertion.sql) son datos de demostración.
 
 ## 📂 Estructura del repositorio
