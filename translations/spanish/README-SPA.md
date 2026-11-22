@@ -1,6 +1,6 @@
 # ✏️ TrazoMatch - Diseño de Base de Datos 💻 
 
-<img src="assets/logo.jpg" alt="Logo de TrazoMatch">
+<img src="../../assets/logo.jpg" alt="Logo de TrazoMatch">
 
 **TrazoMatch** es una plataforma que conecta a artistas con empresas interesadas en licenciar obras o solicitar encargos personalizados.
 
@@ -22,7 +22,7 @@ Traducciones: [English](../../README.md) · **Español**
 
 TrazoMatch utiliza una base de datos MySQL llamada `TrazoMatch`. La base distingue dos tipos de usuarios: **artistas** y **empresas**.
 
-<img src="assets/erd_diagram.png" alt="Diagrama entidad-relación de TrazoMatch">
+<img src="../../assets/erd_diagram.png" alt="Diagrama entidad-relación de TrazoMatch">
 
 ## ❗ Entidades principales
 
