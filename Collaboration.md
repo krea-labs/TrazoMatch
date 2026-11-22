@@ -36,6 +36,14 @@ First clone this repository in Visual Studio Code
     git push --set-upstream origin feature/[FEATURE_NAME]
     ```
 
+- Use SQLTools to conect to the database
+    > [!Important]
+    > You have to install SQLTools (VS Code Extension) by Matheus Teixeira first
+
+    - Open Database section in the vertical Tab
+    - Select MySQL in DataBases
+    - And finally add new conection
+
 - Now you work directly in file.sql directly
     Example:
 
