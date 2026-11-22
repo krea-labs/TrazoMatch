@@ -6,7 +6,7 @@
 
 El proyecto incluye el diseño entidad-relación, los scripts de creación de tablas, datos de ejemplo y consultas SQL sobre la base de datos en MySQL.
 
-Traducciones: [English](https://github.com/krea-labs/TrazoMatch/blob/main/README.md) · **Español**
+Traducciones: [English](README.md) · **Español**
 
 ## 👥 Equipo
 
@@ -60,7 +60,7 @@ TrazoMatch utiliza una base de datos MySQL llamada `TrazoMatch`. La base disting
 - SQLTools VS Code Extension (Tambien funciona en VS Codium) by Matheus Teixeira u otra extension compatible con MySQL.
 
 > [!Important]
-> Revisa [Collaboration.md](https://github.com/krea-labs/TrazoMatch/blob/main/Collaboration.md) en la seccion de ```Tools and Language``` donde encontraras los links para las herramientes, extenciones y el lenguaje para trabajar en el proyecto
+> Revisa [Collaboration.md](Collaboration.md) en la seccion de ```Tools and Language``` donde encontraras los links para las herramientes, extenciones y el lenguaje para trabajar en el proyecto
 
 ### Crear e insertar la base de datos
 
