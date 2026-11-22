@@ -51,6 +51,10 @@ git commit -m "<commit-message>"
 git push
 ```
 
+> [!Caution]
+> In case you send a commit incomplete or wrong for accident click and Followthe file below 
+[Fix_Commit_Protocol](https://github.com/krea-labs/TrazoMatch/blob/main/Fix_Commit_Protocol.md)
+
 - Test everything
 
 - Finally send a pull request
