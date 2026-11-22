@@ -6,11 +6,7 @@
 
 El proyecto incluye el diseño entidad-relación, los scripts de creación de tablas, datos de ejemplo y consultas SQL sobre la base de datos en MySQL.
 
-<p aling="center">
-  Traducciones:
-  <a href="https://github.com/krea-labs/TrazoMatch/blob/main/README.md">English</a> ·
-  <a href="https://github.com/krea-labs/TrazoMatch/blob/main/README-Spa.md" class="active">Español</a>
-</p>
+Traducciones: [English](https://github.com/krea-labs/TrazoMatch/blob/main/README.md) · **Español**
 
 ## 👥 Equipo
 
