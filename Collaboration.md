@@ -52,14 +52,14 @@ git push
 ```
 
 > [!Caution]
-> In case you send a commit incomplete or wrong for accident click and Followthe file below 
+> In case you send a commit incomplete or wrong by accident click and Follow the file below 
 [Fix_Commit_Protocol](https://github.com/krea-labs/TrazoMatch/blob/main/Fix_Commit_Protocol.md)
 
 - Test everything
 
 - Finally send a pull request
 
-# Conventional Comits
+## Conventional Comits
 - feat: Introduces a new feature (correlates with MINOR in semantic versioning).
 - fix: Patches a bug in the codebase (correlates with PATCH in semantic versioning).
 - refactor: Restructures code without changing its behavior.
@@ -73,3 +73,6 @@ Example:
 ```text
 feat(api): remove old endpoint
 ```
+
+> [!Important]
+> For conventions the Commits must be redacted in English. Avoid send Commits in Spanish
