@@ -11,7 +11,7 @@ El proyecto incluye el diseño entidad-relación, los scripts de creación de ta
 | Integrante |
 | --- |
 | Gutierrez Quispe, Joaquín Armando |
-| Kobashigawa Ugaz, Juan Alejandro |
+| Kobashigawa Ugaz |
 | Leon Ojeda, Adrian Alejandro |
 | Lopez Polo, Anghel Victoria Claudeth |
 | Sedano Barreda, Luis Enrique |
@@ -90,7 +90,8 @@ krea-labs/TrazoMatch/
 └── README.md
 ```
 
-El script [drop_database_tables.sql](relational%20database/database%20creation/drop_database_tables.sql) elimina tablas y la base de datos completa. No debe ejecutarse en datos reales.
+> [!CAUTION]
+> El script [drop_database_tables.sql](relational%20database/database%20creation/drop_database_tables.sql) elimina tablas y la base de datos completa. No debe ejecutarse sin previo aviso y No debe ejecutarse cuando la base de datos tenga datos reales.
 
 ## 🖱️ Consulta de ejemplo
 
