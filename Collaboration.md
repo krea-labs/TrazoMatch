@@ -38,8 +38,8 @@ First clone this repository in Visual Studio Code
 
 - Use SQLTools to conect to the database
 
-    > [!Important]
-    > You have to install SQLTools (VS Code Extension) by Matheus Teixeira first
+> [!Important]
+> You have to install SQLTools (VS Code Extension) by Matheus Teixeira first
 
     - Open Database section in the vertical Tab
     - Select MySQL in DataBases
