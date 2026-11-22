@@ -51,13 +51,20 @@ First clone this repository in Visual Studio Code
     relational database/data insertion/data_insetion.sql
     ```
 
-- commit changes
+- Add All changes
+    ```git
+    git add .
+    ```
 
-```git
-git add .
-git commit -m "<commit-message>"
-git push
-```
+- commit changes
+    ```git
+    git commit -m "<commit-message>"
+    ```
+
+- Upload changes to GitHub
+    ```git
+    git push
+    ```
 
 > [!Caution]
 > In case you send a commit incomplete or wrong by accident click and Follow the file below 
