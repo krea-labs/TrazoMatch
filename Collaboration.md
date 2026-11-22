@@ -24,7 +24,7 @@ First clone this repository in Visual Studio Code
     ```
 
 > [!Important]
-> If you alredy clone the repo in your devide run the command below before anything to prevent merge conflicts
+> If you alredy clone the repo in your device run the command below before anything to prevent merge conflicts
 ```git
 git pull --rebase
 ```
@@ -46,7 +46,7 @@ git pull --rebase
     ```git
     git rev-parse --abbrev-ref HEAD
     ```
-    
+
     The output must be: ```feature/[FEATURE_NAME]``` and not ```main```.
     in case that the output is ```main``` run the last 2 commands again
 
