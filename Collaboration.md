@@ -42,6 +42,14 @@ git pull --rebase
     git push --set-upstream origin feature/[FEATURE_NAME]
     ```
 
+- make sure that your in the new branch before make any changes
+    ```git
+    git rev-parse --abbrev-ref HEAD
+    ```
+    
+    The output must be: ```feature/[FEATURE_NAME]``` and not ```main```.
+    in case that the output is ```main``` run the last 2 commands again
+
 > [!Important]
 > You have to install SQLTools (VS Code Extension) by Matheus Teixeira first
 
