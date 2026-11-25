@@ -11,9 +11,9 @@ Translations: **English** · [Español](translations/spanish/Collaboration-SPA.m
 - MySQL Community Server (GPL): https://dev.mysql.com/downloads/
 - MongoDB Community Edition: https://www.mongodb.com/docs/manual/administration/install-community/
 ## VS Code Extensions
-- ~MySQL Shell for VS Code: https://marketplace.visualstudio.com/items?itemName=Oracle.mysql-shell-for-vs-code~
+- ~~MySQL Shell for VS Code: https://marketplace.visualstudio.com/items?itemName=Oracle.mysql-shell-for-vs-code~~
 - MongoDB for VS Code: https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode
-- SQLTools VS Code Extension: https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools
+- SQLTools: https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools
 ## Optional Tools to Work Locally without GitHub
 - MySQL Workbench: https://dev.mysql.com/downloads/workbench/
 - MongoDB Shell: https://www.mongodb.com/try/download/shell
