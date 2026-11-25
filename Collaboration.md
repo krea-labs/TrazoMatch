@@ -4,17 +4,20 @@
 
 Translations: **English** · [Español](translations/spanish/Collaboration-SPA.md)
 
-# Tools and Language
+# Tools and Languages
+## Main IDE
 - Visual Studio Code: https://code.visualstudio.com/download?_exp_download=d53503e735
-- MySQL: https://dev.mysql.com/downloads/
-- MySQL Workbench: https://dev.mysql.com/downloads/workbench/
-- ~MySQL Shell for VS Code: https://marketplace.visualstudio.com/items?itemName=Oracle.mysql-shell-for-vs-code~
+## Languages
+- MySQL Community Server (GPL): https://dev.mysql.com/downloads/
 - MongoDB Community Edition: https://www.mongodb.com/docs/manual/administration/install-community/
-- SQLTools VS Code Extension: https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools
+## VS Code Extensions
+- ~MySQL Shell for VS Code: https://marketplace.visualstudio.com/items?itemName=Oracle.mysql-shell-for-vs-code~
 - MongoDB for VS Code: https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode
-
-> [!Important]
-> SQLTools also support MongoDB so isn't necessary to install MongoDB for VS Code.
+- SQLTools VS Code Extension: https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools
+## Optional Tools to Work Locally without GitHub
+- MySQL Workbench: https://dev.mysql.com/downloads/workbench/
+- MongoDB Shell: https://www.mongodb.com/try/download/shell
+- MongoDB Compass (GUI): https://www.mongodb.com/try/download/compass
 
 # Instructions
 First clone this repository in Visual Studio Code
