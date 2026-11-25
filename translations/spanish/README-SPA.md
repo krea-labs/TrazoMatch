@@ -67,7 +67,7 @@ TrazoMatch utiliza una base de datos MySQL llamada `TrazoMatch`. La base disting
   - MongoDB Shell o MongoDB Compass.
 
 > [!Important]
-> Revisa [Collaboration.md](Collaboration-SPA.md) en la seccion de ```Tools and Language``` donde encontraras los links para las herramientes, extenciones y el lenguaje para trabajar en el proyecto
+> Revisa [Collaboration.md](Collaboration-SPA.md) en la seccion de ```Herramientas y lenguajes``` donde encontraras los links para las herramientes, extenciones y el lenguajes para trabajar en el proyecto
 
 ### Crear e insertar la base de datos
 
