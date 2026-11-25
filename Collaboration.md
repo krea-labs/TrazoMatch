@@ -23,7 +23,7 @@ Translations: **English** · [Español](translations/spanish/Collaboration-SPA.m
 
 # Instructions
 ## Configure Git
-> [!Importat]
+> [!Important]
 > Before start make sure you alredy configured Git propely. If you didn't configured it or installed it yet follow this instructions
 
 - First Install Git
