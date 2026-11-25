@@ -54,7 +54,8 @@ git config --list
 
 ## Empieza el Desarrollo
 Primero clone este repositorio en Visual Studio Code
-> puede utilizar la interfaz visual en el panel de control de código fuente. De lo contrario, utilice la terminal integrada
+> puede utilizar la interfaz visual en el panel de control de código fuente. De lo contrario, utilice la terminal integrada. Revisa el siguiente video para trabajar en VS Code por GUI
+[Video de entrenamiento](https://youtu.be/duawIoIhHDE)
 
 - Clonar el repositorio en una carpeta:
     - HTTPS (predeterminado):
@@ -131,6 +132,7 @@ git pull --rebase
 - Pruebe todo
 
 - Finalmente, envíe una Pull Request
+    [Envia un Pull Request en GitHub](https://youtu.be/duawIoIhHDE?si=AIWHx1UdPcO8_wX0&t=246)
 
 ## Conventional Comits
 - feat: Introduce una nueva funcionalidad (se correlaciona con MINOR en el - versionado semántico).
