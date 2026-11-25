@@ -2,7 +2,7 @@
 > [!Important]
 > ⚠️ Collaboration is restricted to the Organization's Owners only;
 
-Translations: **English** · [Español](translations/spanish/Collaboration-SPA.md)
+Translations: **English** · [Español](translations/spanish/Collaboration-SPA.md) * [Japanese](translations...)
 
 # Tools and Languages
 ## Main IDE
