@@ -132,6 +132,7 @@ git pull --rebase
 - Test everything
 
 - Finally send a pull request
+    [Send a Pull Request in GitHub](https://youtu.be/duawIoIhHDE?si=AIWHx1UdPcO8_wX0&t=246)
 
 ## Conventional Comits
 - feat: Introduces a new feature (correlates with MINOR in semantic versioning).
