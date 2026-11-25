@@ -7,6 +7,8 @@ Translations: **English** · [Español](translations/spanish/Collaboration-SPA.m
 # Tools and Languages
 ## Main IDE
 - Visual Studio Code: https://code.visualstudio.com/download?_exp_download=d53503e735
+## Version Control 
+- Git: https://git-scm.com/install/
 ## Languages
 - MySQL Community Server (GPL): https://dev.mysql.com/downloads/
 - MongoDB Community Edition: https://www.mongodb.com/docs/manual/administration/install-community/
@@ -20,6 +22,37 @@ Translations: **English** · [Español](translations/spanish/Collaboration-SPA.m
 - MongoDB Compass (GUI): https://www.mongodb.com/try/download/compass
 
 # Instructions
+## Configure Git
+> [!Importat]
+> Before start make sure you alredy configured Git propely. If you didn't configured it or installed it yet follow this instructions
+
+- First Install Git
+
+- Set Indentity
+    - Set Username:
+    ```git
+    git config --global user.name "Your GitHub Username"
+    ```
+
+    - Set Email: 
+    ```git
+    git config --global user.email your.email@example.com
+    ```
+
+> [!Important]
+> Make sure that at least your email is the same that the email you use in GitHub
+
+- Set Git Editor
+```git
+git config --global core.editor "code --wait"
+```
+
+- Check the Config
+```git
+git config --list
+```
+
+## Start Developing
 First clone this repository in Visual Studio Code
 > you can use the visual interface in Source Control Panel. otherwise use the integrate terminal
 
