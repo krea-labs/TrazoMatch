@@ -55,12 +55,19 @@ TrazoMatch uses a MySQL database named `TrazoMatch`. The database distinguishes 
 ### Requirements
 
 - MySQL 8 or compatible.
-- MySQL Workbench, MySQL Shell, or SQL client.
 - Visual Studio Code, VS Codium, or another IDE compatible with SQL language that allows cloning repositories.
 - SQLTools VS Code Extension (Also works in VS Codium) by Matheus Teixeira or another extension compatible with MySQL.
+- MongoDB
+- MongoDB for VS Code (Also works in VS Codium) or another extension compatible with MongoDB
+- Git 2.0 or Later
+- GitHub
+
+- Optional:
+  - MySQL Workbench, MySQL Shell, or SQL client.
+  - MongoDB Shell or MongoDB Compass.
 
 > [!Important]
-> Check [Collaboration.md](https://github.com/krea-labs/TrazoMatch/blob/main/Collaboration.md) in the ```Tools and Language``` section where you will find the links for the tools, extensions, and the language to work on the project
+> Check [Collaboration.md](https://github.com/krea-labs/TrazoMatch/blob/main/Collaboration.md) in the ```Tools and Languages``` section where you will find the links for the tools, extensions, and the language to work on the project
 
 ### Create and Insert the Database
 
