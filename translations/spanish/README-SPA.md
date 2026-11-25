@@ -55,9 +55,16 @@ TrazoMatch utiliza una base de datos MySQL llamada `TrazoMatch`. La base disting
 ### Requisitos
 
 - MySQL 8 o compatible
-- MySQL Workbench, MySQL Shell o cliente SQL
 - Visual Studio Code, VS Codium u Otro IDE compatible con Lenguaje SQL que permita clonar repositorios.
 - SQLTools VS Code Extension (Tambien funciona en VS Codium) by Matheus Teixeira u otra extension compatible con MySQL.
+- MongoDB
+- MongoDB for VS Code (Tambien funciona en VS Codium) u otra extension compatible con MongoDB
+- Git 2.0 o mas reciente
+- GitHub
+
+- Opcional:
+  - MySQL Workbench, MySQL Shell o cliente SQL
+  - MongoDB Shell o MongoDB Compass.
 
 > [!Important]
 > Revisa [Collaboration.md](Collaboration-SPA.md) en la seccion de ```Tools and Language``` donde encontraras los links para las herramientes, extenciones y el lenguaje para trabajar en el proyecto
