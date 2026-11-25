@@ -54,7 +54,8 @@ git config --list
 
 ## Start Developing
 First clone this repository in Visual Studio Code
-> you can use the visual interface in Source Control Panel. otherwise use the integrate terminal
+> you can use the visual interface in Source Control Panel. otherwise use the integrate terminal. Check the Video Bellow work with VS Code GUI
+[Training Video](https://youtu.be/duawIoIhHDE)
 
 - Clone Repository in a folder:
     - HTTPS (default):
