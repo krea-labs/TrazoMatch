@@ -134,6 +134,14 @@ git pull --rebase
 - Finally send a pull request
     [Send a Pull Request in GitHub](https://youtu.be/duawIoIhHDE?si=AIWHx1UdPcO8_wX0&t=246)
 
+- After finish the feature Go back to the main branch
+```git
+git switch main
+```
+
+> [!Important]
+> DO NOT DELETE THE BRANCH that you created
+
 ## Conventional Comits
 - feat: Introduces a new feature (correlates with MINOR in semantic versioning).
 - fix: Patches a bug in the codebase (correlates with PATCH in semantic versioning).
