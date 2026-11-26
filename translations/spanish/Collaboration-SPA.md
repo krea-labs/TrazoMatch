@@ -97,18 +97,34 @@ git pull --rebase
 > [!Important]
 > Primero debe instalar SQLTools (extensión de VS Code) de Matheus Teixeira
 
-- Utilice SQLTools para conectarse a la base de datos
-    - Abra la sección Database en la pestaña vertical
-    - Seleccione MySQL en DataBases
-    - Y finalmente agregue una nueva conexión
+- Trabaja en la BD
+    - MySQL:
+        - Utilice SQLTools para conectarse a la base de datos
+            - Abra la sección Database en la pestaña vertical
+            - Seleccione MySQL en DataBases
+            - Y finalmente agregue una nueva conexión
 
-- Ahora trabajamos directamente en archivo.sql
-    
-    Ejemplo:
+        - Ahora trabajamos directamente en archivo.sql
 
-    ```text
-    relational database/data insertion/data_insetion.sql
-    ```
+            Ejemplo:
+
+            ```text
+            relational database/data insertion/data_insetion.sql
+            ```
+    - MongoDB:
+        - Usa MongoDB for VS Code
+            - Abre el Logo de MongoDB en la Barra vertical
+            - Presiona el boton ```+```, el que se encientra al lado de ```connections```
+            - Presiona ```Open form```
+            - Presiona el boton ```Okey``` o ```Aceptar``` 
+            - haz click en el boton derecho del mouse sobre ```localhost:27017```
+            - haz click en la opcion ```Launch MongoDB Shell```
+
+        - Trabaja con los Scripts de JavaScript
+            ```nosql
+            SOURCE "non-relational_database/data_insertion/data_NoSQL_insertion.js";
+            ```
+            > Nota: Puedes crear otro script de ser neccessario.
 
 - Agregar todos los cambios
     ```git
@@ -133,6 +149,14 @@ git pull --rebase
 
 - Finalmente, envíe una Pull Request
     [Envia un Pull Request en GitHub](https://youtu.be/duawIoIhHDE?si=AIWHx1UdPcO8_wX0&t=246)
+
+- Despues de finalizar la feature regresa a la rama main
+```git
+git switch main
+```
+
+> [!Important]
+> NO BORRES LA RAMA QUE HAZ CREADO
 
 ## Conventional Comits
 - feat: Introduce una nueva funcionalidad (se correlaciona con MINOR en el - versionado semántico).
