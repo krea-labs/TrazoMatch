@@ -113,11 +113,11 @@ git pull --rebase
     - MongoDB:
         - Use MongoDB for VS Code
             - Open the MongoDB Logo in the vertical Tab
-            - Press the + button next to connections
+            - Press the ```+``` button next to ```connections```
             - Press ```Open form```
-            - Press Okey button
+            - Press ```Okey``` button
             - hit right click over ```localhost:27017```
-            - hit ```Lauch MongoDB Shell```
+            - hit ```Launch MongoDB Shell```
 
         - Work in the JavaScript Scripts
             ```nosql
