@@ -96,19 +96,34 @@ git pull --rebase
 
 > [!Important]
 > You have to install SQLTools (VS Code Extension) by Matheus Teixeira first
+- Work with the DB
+    - MySQL:
+        - Use SQLTools to conect to the database
+            - Open Database section in the vertical Tab
+            - Select MySQL in DataBases
+            - And finally add new conection
 
-- Use SQLTools to conect to the database
-    - Open Database section in the vertical Tab
-    - Select MySQL in DataBases
-    - And finally add new conection
+        - Now you work directly in file.sql directly
 
-- Now you work directly in file.sql directly
-    
-    Example:
+            Example:
 
-    ```text
-    relational database/data insertion/data_insetion.sql
-    ```
+            ```sql
+            SOURCE "relational database/data insertion/data_insetion.sql";
+            ```
+    - MongoDB:
+        - Use MongoDB for VS Code
+            - Open the MongoDB Logo in the vertical Tab
+            - Press the + button next to connections
+            - Press ```Open form```
+            - Press Okey button
+            - hit right click over ```localhost:27017```
+            - hit ```Lauch MongoDB Shell```
+
+        - Work in the JavaScript Scripts
+            ```nosql
+            SOURCE "non-relational_database/data_insertion/data_NoSQL_insertion.js";
+            ```
+            > Note: You can create other script in case you need it.
 
 - Add All changes
     ```git
