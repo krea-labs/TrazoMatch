@@ -112,14 +112,14 @@ git pull --rebase
             ```
     - MongoDB:
         - Use MongoDB for VS Code
-            - Open the MongoDB Logo in the vertical Tab
+            - Open the MongoDB's Logo in the vertical Tab
             - Press the ```+``` button next to ```connections```
             - Press ```Open form```
             - Press ```Okey``` button
             - hit right click over ```localhost:27017```
             - hit ```Launch MongoDB Shell```
 
-        - Work in the JavaScript Scripts
+        - Work in the JavaScript's Scripts
             ```nosql
             SOURCE "non-relational_database/data_insertion/data_NoSQL_insertion.js";
             ```
