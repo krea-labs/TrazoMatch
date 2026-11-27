@@ -84,7 +84,7 @@ Order the scripts in MongoDB:
 ```nosql
 SOURCE "non-relational_database/database_creation/database_NoSQL_Create.js";
 SOURCE "non-relational_database/data_insetion/data_NoSQL_insertion.js";
-SOURCE "non-relational_database/general_queries/";
+SOURCE "non-relational_database/general_queries/NoSQL_queries.js";
 ```
 
 Paths must be run from the root of the repository or replaced with the corresponding absolute path.
