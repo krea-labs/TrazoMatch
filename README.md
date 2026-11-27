@@ -99,6 +99,13 @@ krea-labs/TrazoMatch/
 ├── assets/
 │   ├── logo.jpg
 │   └── erd_diagram.png
+├── non-relational_database/
+│   ├── database_creation/
+│   │   └── database_NoSQL_Create.js
+│   ├── data insertion/
+│   │   └── data_NoSQL_insertion.js
+│   └── general queries/
+│       └── NoSQL_queries.js
 ├── relational database/
 │   ├── database creation/
 │   │   ├── database_tables_creation.sql
