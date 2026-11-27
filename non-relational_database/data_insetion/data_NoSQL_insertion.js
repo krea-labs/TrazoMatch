@@ -11,5 +11,18 @@ db.C_Empresa.insertOne({
     "correo": "info@miraiart.com",
     "nombreRepresentante": "Saori Tanaka",
     "correoRepresentante": "saori.tanaka@miraiart.com",
-
+    "encargos": [
+        {
+            "idEncargo": "1",
+            "nombreEncargo": "Retrato Personalizado",
+            "descripciónEncargo": "Encargo de un retrato digital personalizado basado en una fotografía proporcionada por el cliente.",
+            "estado": "En progreso",
+        },
+        {
+            "idEncargo": "2",
+            "nombreEncargo": "Ilustración de Portada",
+            "descripciónEncargo": "Encargo para crear una ilustración de portada para un libro de fantasía.",
+            "estado": "Completado",
+        }
+    ],
 })
