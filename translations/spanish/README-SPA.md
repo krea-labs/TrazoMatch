@@ -79,6 +79,14 @@ SOURCE "relational database/database creation/additional_constraints.sql";
 SOURCE "relational database/data insertion/data_insertion.sql";
 ```
 
+Orden de scripts en MongoDB:
+
+```nosql
+SOURCE "non-relational_database/database_creation/database_NoSQL_Create.js";
+SOURCE "non-relational_database/data_insetion/data_NoSQL_insertion.js";
+SOURCE "non-relational_database/general_queries/";
+```
+
 Las rutas deben ejecutarse desde la raíz del repositorio o reemplazarse por la ruta absoluta correspondiente.
 
 > [!Important]
