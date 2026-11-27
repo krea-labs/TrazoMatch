@@ -4,7 +4,7 @@
 
 **TrazoMatch** is a platform that connects artists with companies interested in licensing artworks or requesting custom commissions.
 
-The project includes the entity-relationship design, table creation scripts, sample data, and SQL queries on the MySQL database.
+The project includes the entity-relationship design, table creation scripts, sample data, and SQL queries on the MySQL database and MongoDB database.
 
 Translations: **English** · [Español](translations/spanish/README-SPA.md)
 
@@ -77,6 +77,14 @@ Run the scripts in the following order from MySQL:
 SOURCE "relational database/database creation/database_tables_creation.sql";
 SOURCE "relational database/database creation/additional_constraints.sql";
 SOURCE "relational database/data insertion/data_insertion.sql";
+```
+
+Order the scripts in MongoDB:
+
+```nosql
+SOURCE "non-relational_database/database_creation/database_NoSQL_Create.js";
+SOURCE "non-relational_database/data_insetion/data_NoSQL_insertion.js";
+SOURCE "non-relational_database/general_queries/";
 ```
 
 Paths must be run from the root of the repository or replaced with the corresponding absolute path.
