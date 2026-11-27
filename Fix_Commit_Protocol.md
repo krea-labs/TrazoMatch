@@ -4,6 +4,13 @@
 
 Translations: **English** · [Español](translations/spanish/Fix_Commit_Protocol-SPA.md)
 
+> [!Important]
+> If you didn't upload the changes in GitHub. you can simply undo your recent commit with this command
+```git
+git reset --soft HEAD~1
+```
+
+> Overwrite your last commit when is already uploaded in GitHub. Follow the steps bellow
 - First of all DO NOT DO ANYTHING ELSE
 
 > [!Caution]
