@@ -4,6 +4,13 @@
 
 Traducciones: [English](../../Fix_Commit_Protocol.md) · **Español**
 
+> [!Important]
+> Si aun no has subido los cambios en GitHub. Puedes simplemente borrar el commit con el siguiente comando
+```git
+git reset --soft HEAD~1
+```
+
+> Sobreescribe tu ultimo commit cuando ya ha sido publicado en GitHub. sigue los siguientes pasos
 - En primer lugar, NO REALICE NINGUNA OTRA ACCIÓN
 
 > [!Caution]
