@@ -84,7 +84,7 @@ Orden de scripts en MongoDB:
 ```nosql
 SOURCE "non-relational_database/database_creation/database_NoSQL_Create.js";
 SOURCE "non-relational_database/data_insetion/data_NoSQL_insertion.js";
-SOURCE "non-relational_database/general_queries/";
+SOURCE "non-relational_database/general_queries/NoSQL_queries.js";
 ```
 
 Las rutas deben ejecutarse desde la raíz del repositorio o reemplazarse por la ruta absoluta correspondiente.
