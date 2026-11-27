@@ -4,7 +4,7 @@
 
 **TrazoMatch** es una plataforma que conecta a artistas con empresas interesadas en licenciar obras o solicitar encargos personalizados.
 
-El proyecto incluye el diseño entidad-relación, los scripts de creación de tablas, datos de ejemplo y consultas SQL sobre la base de datos en MySQL.
+El proyecto incluye el diseño entidad-relación, los scripts de creación de tablas, datos de ejemplo y consultas SQL sobre la base de datos en MySQL y la base de datos en MongoDB.
 
 Traducciones: [English](../../README.md) · **Español**
 
