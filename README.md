@@ -67,7 +67,7 @@ TrazoMatch uses a MySQL database named `TrazoMatch`. The database distinguishes 
   - MongoDB Shell or MongoDB Compass.
 
 > [!Important]
-> Check [Collaboration.md](https://github.com/krea-labs/TrazoMatch/blob/main/Collaboration.md) in the ```Tools and Languages``` section where you will find the links for the tools, extensions, and the languages to work on the project
+> Check [Collaboration.md](Collaboration.md) in the ```Tools and Languages``` section where you will find the links for the tools, extensions, and the languages to work on the project
 
 ### Create and Insert the Database
 
