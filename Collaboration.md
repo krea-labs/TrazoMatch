@@ -16,6 +16,10 @@ Translations: **English** · [Español](translations/spanish/Collaboration-SPA.m
 - ~~MySQL Shell for VS Code: https://marketplace.visualstudio.com/items?itemName=Oracle.mysql-shell-for-vs-code~~
 - MongoDB for VS Code: https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode
 - SQLTools: https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools
+- SQLTools MySQL/MariaDB/TiDB: https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools-driver-mysql
+## Optional but usefull VS Code Extensions
+- Database Client: https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-database-client2
+- GitLens: https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
 ## Languages Shell
 - MongoDB Shell: https://www.mongodb.com/try/download/shell
 ## Optional Tools to Work Locally without GitHub
