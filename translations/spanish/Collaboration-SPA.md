@@ -36,7 +36,7 @@ Traducciones: [English](../../Collaboration.md) · **Español**
 
     - Asigna tu correo: 
     ```git
-    git config --global user.email your.email@example.com
+    git config --global user.email "your.email@example.com"
     ```
 
 > [!Important]
